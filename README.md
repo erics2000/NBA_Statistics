@@ -21,7 +21,6 @@ NBA Central is a dynamic, user-friendly web application that serves as a central
 - `Processed_Dataset/`: Contains processed data used by the web application. The data has undergone normalization to ensure consistency and efficiency.
 - `src/`: The main folder for the web application code, containing backend and frontend components.
 - `server/`: Backend implementation using Express.js to handle API requests.
-- `client/`: Frontend implementation using React, Material UI, and Recharts for building dynamic visualizations and interactions.
 
 ## Datasets Used
 The application uses five main datasets from the NBA:
