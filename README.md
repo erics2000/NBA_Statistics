@@ -36,35 +36,6 @@ The application uses five main datasets from the NBA:
 3. **Database Setup**: The cleaned and normalized data is uploaded to a MySQL database hosted on AWS RDS, ensuring scalability and security.
 4. **Web Application**: The web app interacts with the database using RESTful APIs, built with Express.js, and serves data to the frontend for visualization.
 
-## How to Run the Project
-### Prerequisites
-- Node.js and npm installed.
-- Python 3 with Pandas and Matplotlib.
-- MySQL database setup (AWS RDS credentials required).
-
-### Instructions
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/erics2000/DQN-for-Atari-Game
-   cd NBA_Central
-   ```
-2. **Install Dependencies**:
-   ```bash
-   npm install
-   cd client
-   npm install
-   ```
-3. **Configure Environment**: Update `.env` file with database credentials.
-4. **Run the Backend Server**:
-   ```bash
-   npm run server
-   ```
-5. **Run the Frontend**:
-   ```bash
-   cd client
-   npm start
-   ```
-6. Access the web application at `http://localhost:3000`.
 
 ## Future Improvements
 - **Data Update Automation**: Implement a mechanism to automatically fetch and update NBA data for future seasons.
@@ -73,10 +44,9 @@ The application uses five main datasets from the NBA:
 
 ## Credits
 - **Team Members**: Weichen (Eric) Song, Ziyang (Sid) Zhang, Chenkang (Stephen) Zhang, Runqi (Vickie) Liu.
-- **Course**: This project was part of CIS 550: Database and Information Systems at the University of Pennsylvania.
 
 ## Links
-- **GitHub Repository**: [GitHub](https://github.com/erics2000/DQN-for-Atari-Game)
+- **GitHub Repository**: [GitHub](https://github.com/erics2000/NBA_Statistics)
 - **Demo Video**: [YouTube Demo](https://drive.google.com/file/d/1wOUZyHVqwhJOvw81cpCFXWYDVI3-2DdA/view?usp=sharing)
 
 ## License
